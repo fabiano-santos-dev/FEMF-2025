@@ -1,0 +1,238 @@
+/* ============================
+   GERAL
+============================ */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f6f9fc;
+}
+
+/* ============================
+   MENU LATERAL
+============================ */
+.menu-lateral {
+    width: 230px;
+    background-color: #082f57;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-sistema {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icone-logo {
+    background: linear-gradient(135deg, #00bfa6, #0077b6);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-logo {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #cddfee;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacao li {
+    padding: 12px 20px;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.navegacao a:hover, .navegacao .ativo {
+    background-color: #0b3f72;
+    border-radius: 8px;
+}
+
+/* ============================
+   USUÁRIO (rodapé menu)
+============================ */
+.usuario {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #11436f;
+}
+
+.avatar {
+    background-color: #0b3f72;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cddfee;
+}
+
+.info-usuario {
+    margin-left: 10px;
+}
+
+.nome-usuario {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cargo-usuario {
+    font-size: 12px;
+    color: #a8c4de;
+}
+
+/* ============================
+   CONTEÚDO PRINCIPAL
+============================ */
+.conteudo-principal {
+    flex: 1;
+    padding: 40px;
+}
+
+.cabecalho-pagina h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #082f57;
+}
+
+.cabecalho-pagina p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* ============================
+   SEÇÃO DE CONFIGURAÇÕES
+============================ */
+.area-config {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 900px;
+}
+
+.area-config h2 {
+    margin-bottom: 5px;
+    color: #082f57;
+}
+
+.descricao {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Informações do Sistema */
+.bloco-sistema {
+    margin-bottom: 30px;
+}
+
+.linha-form {
+    display: flex;
+    gap: 20px;
+}
+
+.campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 13px;
+    color: #082f57;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Botões superiores */
+.botoes-superiores {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-salvar {
+    background-color: #00bfa6;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-novo {
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-salvar:hover { background-color: #009e8d; }
+.btn-novo:hover { background-color: #006fd6; }
+
+/* Tabela de usuários */
+.bloco-usuarios table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.bloco-usuarios th, .bloco-usuarios td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.bloco-usuarios th {
+    background-color: #f6f9fc;
+    color: #082f57;
+}
+
+.bloco-usuarios td {
+    color: #444;
+}
+
+/* ============================
+   RODAPÉ
+============================ */
+.rodape {
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+    margin-top: 30px;
+}

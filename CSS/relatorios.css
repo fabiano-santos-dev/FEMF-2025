@@ -1,0 +1,210 @@
+/* ============================
+   GERAL
+============================ */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f6f9fc;
+}
+
+/* ============================
+   MENU LATERAL
+============================ */
+.menu-lateral {
+    width: 230px;
+    background-color: #082f57;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-sistema {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icone-logo {
+    background: linear-gradient(135deg, #00bfa6, #0077b6);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-logo {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #cddfee;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacao li {
+    padding: 12px 20px;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.navegacao a:hover, .navegacao .ativo {
+    background-color: #0b3f72;
+    border-radius: 8px;
+}
+
+/* ============================
+   USUÁRIO (rodapé menu)
+============================ */
+.usuario {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #11436f;
+}
+
+.avatar {
+    background-color: #0b3f72;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cddfee;
+}
+
+.info-usuario {
+    margin-left: 10px;
+}
+
+.nome-usuario {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cargo-usuario {
+    font-size: 12px;
+    color: #a8c4de;
+}
+
+/* ============================
+   CONTEÚDO PRINCIPAL
+============================ */
+.conteudo-principal {
+    flex: 1;
+    padding: 40px;
+}
+
+.cabecalho-pagina h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #082f57;
+}
+
+.cabecalho-pagina p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* ============================
+   ÁREA DE RELATÓRIOS
+============================ */
+.area-relatorios {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 850px;
+}
+
+.form-relatorio {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.coluna-esquerda, .coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+label {
+    font-size: 13px;
+    color: #082f57;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.botoes {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-limpar {
+    background-color: #fff;
+    color: #082f57;
+    border: 1px solid #ccc;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-gerar {
+    background-color: #00bfa6;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-limpar:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-gerar:hover {
+    background-color: #009e8d;
+}
+
+.info {
+    margin-top: 15px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* ============================
+   RODAPÉ
+============================ */
+.rodape {
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+    margin-top: 30px;
+}

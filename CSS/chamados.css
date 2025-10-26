@@ -1,0 +1,235 @@
+SS CHAMADO ANTIGO
+/* ============================
+   GERAL
+============================ */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f6f9fc;
+}
+
+/* ============================
+   MENU LATERAL
+============================ */
+.menu-lateral {
+    width: 230px;
+    background-color: #082f57;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-sistema {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icone-logo {
+    background: linear-gradient(135deg, #00bfa6, #0077b6);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-logo {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #cddfee;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacao li {
+    padding: 12px 20px;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.navegacao a:hover, .navegacao .ativo {
+    background-color: #0b3f72;
+    border-radius: 8px;
+}
+
+/* ============================
+   USUÁRIO (rodapé menu)
+============================ */
+.usuario {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #11436f;
+}
+
+.avatar {
+    background-color: #0b3f72;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cddfee;
+}
+
+.info-usuario {
+    margin-left: 10px;
+}
+
+.nome-usuario {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cargo-usuario {
+    font-size: 12px;
+    color: #a8c4de;
+}
+
+/* ============================
+   CONTEÚDO PRINCIPAL
+============================ */
+.conteudo-principal {
+    flex: 1;
+    padding: 40px;
+}
+
+.cabecalho-pagina h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #082f57;
+}
+
+.cabecalho-pagina p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* ============================
+   FILTROS
+============================ */
+.filtros {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 30px 0 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.filtro label {
+    font-size: 13px;
+    display: block;
+    color: #082f57;
+    margin-bottom: 3px;
+}
+
+.filtro select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.busca input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 220px;
+}
+
+.acoes button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.novo-chamado {
+    background-color: #00bfa6;
+    color: white;
+}
+
+.exportar {
+    background-color: white;
+    border: 1px solid #00bfa6;
+    color: #00bfa6;
+}
+
+/* ============================
+   TABELA DE CHAMADOS
+============================ */
+.tabela-chamados {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.tabela-chamados th, .tabela-chamados td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.tabela-chamados th {
+    background-color: #f4f7fa;
+    color: #082f57;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.status.andamento { background-color: #ffb703; }
+.status.concluido { background-color: #00bfa6; }
+.status.pendente { background-color: #999; }
+
+.editar, .excluir {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.editar:hover { color: #0077b6; }
+.excluir:hover { color: #d00000; }
+
+/* ============================
+   RODAPÉ
+============================ */
+.rodape {
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
